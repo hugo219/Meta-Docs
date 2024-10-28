@@ -4,24 +4,24 @@
 proxies:
 - name: "vless"
   type: vless
-  server: server
-  port: 443
+  server: vip.236236.xyz
+  port: 28181
   udp: true
-  uuid: uuid
+  uuid: 03eabd73-f3a8-4fa9-8259-cfc0c09ea919
   flow: xtls-rprx-vision
   packet-encoding: xudp
 
   tls: true
-  servername: example.com
+  servername: yahoo.com
   alpn:
   - h2
   - http/1.1
-  fingerprint: xxxx
+  fingerprint: chrome
   client-fingerprint: chrome
   skip-cert-verify: true
   reality-opts:
-    public-key: xxxx
-    short-id: xxxx
+    public-key: IvmioriPGZHw8A5XywriJKH9veZLcwwbew-QHXRThQ0
+    short-id: 6f
 
   network: tcp
 
